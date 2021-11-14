@@ -1,6 +1,5 @@
 <?php 
     include("./connect.inc");
-    //echo $_GET['lop'];
     if(isset($_GET['lop'])){
         $lop = $_GET['lop'];
     $sql ="Select * from sinhvien where lop = '{$lop}'";
